@@ -1,17 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
   const menuItems = <>
-    <li><a>Home </a></li>
-    <li><a>Services</a></li>
-    <li><a>About</a></li>
-    <li><a>Contact-Us</a></li>
+    <li><Link to='/'>Home </Link></li>
+    <li><Link to='/services'>Services</Link></li>
+    <li><Link to='/about'>About</Link></li>
+    <li><Link to='/contact'>Contact-Us</Link></li>
+    <li><Link to='/login'>Login / Create</Link></li>
   </>
 
 
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-neutral">
       <div className="navbar">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -33,3 +35,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
