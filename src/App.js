@@ -6,6 +6,7 @@ import About from './pages/About/About';
 import Services from './pages/Services/Services';
 import Contact from './pages/shared/Contact';
 import Login from './pages/Login/Login';
+import Footer from './pages/shared/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="contact" element={<Contact/>} />
         <Route path="login" element={<Login/>} />
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

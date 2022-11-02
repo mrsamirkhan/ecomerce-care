@@ -12,7 +12,7 @@ const Banner = () => {
                         <div className=" max-w-md">
                         <h1 className="mb-7 text-5xl font-bold">Hello Visitors !</h1>
                         <p className="mb-7"> We are the Ecommerce-Care, Anouncing that this is the top discount offer month ! So why you are too late! go hurry up !</p>
-                        <Link to="/login" className='btn btn-wide btn-outline'> Login</Link>
+                        <Link to="/login" className='btn btn-wide btn-outline uppercase'> Login</Link>
                     </div>
                 </div>
             </div>
