@@ -1,22 +1,28 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import chair from '../../assets/images/banner.jpg'
+import chair from '../../assets/images/banner.jpg';
+import Services from '../Services/Services';
 
 const Banner = () => {
     return (
-        <div>
-            <div className="hero h-1/2">
-                <img src={chair} />
-                <div className="hero-overlay bg-opacity-80"></div>
-                <div className="hero-content text-center text-neutral-content">
-                        <div className=" max-w-md">
-                        <h1 className="mb-7 text-5xl font-bold">Hello Visitors !</h1>
-                        <p className="mb-7"> We are the Ecommerce-Care, Anouncing that this is the top discount offer month ! So why you are too late! go hurry up !</p>
-                        <Link to="/login" className='btn btn-wide btn-outline uppercase'> Login</Link>
+
+        <div className='w-full h-screen bg-no-repeat bg-cover bg-center brightness-50' style={{ backgroundImage: `url(${chair})` }}>
+
+
+            <div className="hero min-h-screen ">
+                    <div>
+                        <h1 className="text-4xl font-bold mx-5 ">Box Office News!</h1>
+                        <p className="py-6 px-5  sm:w-full md:w-2/3">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. 
+                        In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button className="btn btn-primary ml-5"><Link to='/Services'>Shop Now </Link></button>
                     </div>
-                </div>
             </div>
+
+
         </div>
+
+
+
     );
 };
 
