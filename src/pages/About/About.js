@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import pic from '../../assets/images/contactus.jpg';
 
 const About = () => {
@@ -14,6 +15,9 @@ const About = () => {
                         we started it in december on 2022.<b /> this is a trusted e-shop which is othorised by goverment. </p>
                 </div>
             </div>
+            <div>
+            </div>
+            <a className="link link-error uppercase"><Link to='/'>return to home</Link> </a>
         </div>
     );
 };
