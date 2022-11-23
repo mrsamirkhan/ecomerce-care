@@ -4,9 +4,9 @@ import cont from '../../assets/images/contactus.jpg';
 const Contact = () => {
     return (
         <div className='container'>
-            <h1 className='text-4xl font-bold uppercase text-center mt-20'>Contact us</h1>
+            <h1 className='text-4xl font-bold uppercase text-center mt-14'>Contact us</h1>
             <div className="hero h-4/5">
-                <div className="hero-content flex-col lg:flex-row-reverse py-28 ">
+                <div className="hero-content flex-col lg:flex-row-reverse py-20 ">
 
                     <img src={cont} className="md:w-2/4 rounded-lg shadow-xl mr-4"/>
 
